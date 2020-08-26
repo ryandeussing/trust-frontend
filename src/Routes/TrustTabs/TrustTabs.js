@@ -31,7 +31,7 @@ const TrustTabs = ({ history, location }) => {
     ];
 
     useEffect(() => {
-        const activeTab = tabs.find((tab => tab.to === location.pathname)).key;
+        const activeTab = location.pathname !== '/' ? tabs.find((tab => tab.to === location.pathname)).key : 0;
         setActiveTabKey(activeTab);
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);

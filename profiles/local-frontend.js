@@ -1,7 +1,5 @@
-/*global module*/
-
-const SECTION = 'insights';
-const APP_ID = 'trust';
+const SECTION = 'security';
+const APP_ID = 'insights';
 const FRONTEND_PORT = 8002;
 const routes = {};
 
