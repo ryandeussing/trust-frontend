@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import getBaseName from './Utilities/getBaseName';
+import { getBaseName } from '@redhat-cloud-services/frontend-components-utilities/files/helpers';
 import { init } from './store';
 import messages from '../locales/data.json';
 
