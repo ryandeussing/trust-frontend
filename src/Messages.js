@@ -45,8 +45,8 @@ export default defineMessages({
     },
     dataPrivacy: {
         id: 'dataPrivacy',
-        description: 'Data Privacy in Red Hat Insights for Managing Red Hat Enterprise Linus Environments',
-        defaultMessage: 'Data Privacy in Red Hat Insights for Managing Red Hat Enterprise Linus Environments'
+        description: 'Data Privacy in Red Hat Insights for Managing Red Hat Enterprise Linux Environments',
+        defaultMessage: 'Data Privacy in Red Hat Insights for Managing Red Hat Enterprise Linux Environments'
     },
     insightsIsDesigned: {
         id: 'insightsIsDesigned',
@@ -56,7 +56,7 @@ export default defineMessages({
     insightsIsDesignedBody: {
         id: 'insightsIsDesignedBody',
         description: 'Insights is designed - body',
-        defaultMessage: 'Red Hat Insights collects only the minimum system metadata that is needed to analyze and identify issues in your Red Hat Enterprise Linus environments.'
+        defaultMessage: 'Red Hat Insights collects only the minimum system metadata that is needed to analyze and identify issues in your Red Hat Enterprise Linux environments.'
     },
     youControlWhat: {
         id: 'youControlWhat',
