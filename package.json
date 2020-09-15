@@ -104,7 +104,7 @@
     "webpack-cli": "3.3.12"
   },
   "insights": {
-    "appname": "insights"
+    "appname": "trust"
   },
   "routes": {
     "trust": "/security/insights"
