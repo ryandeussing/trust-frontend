@@ -269,18 +269,18 @@ export default defineMessages({
     },
     openShiftDedicated: {
         id: 'openShiftDedicated',
-        description: 'Openshift Dedicated',
-        defaultMessage: 'Openshift Dedicated'
+        description: 'OpenShift Dedicated',
+        defaultMessage: 'OpenShift Dedicated'
     },
     openShiftDedicatedBody: {
         id: 'openShiftDedicatedBody',
-        description: 'Openshift Dedicated body',
-        defaultMessage: 'Red Hat Insights operates on Red Hat’s own Openshift Dedicated infrastructure.'
+        description: 'OpenShift Dedicated body',
+        defaultMessage: 'Red Hat Insights operates on Red Hat’s own OpenShift Dedicated infrastructure.'
     },
     openShiftDedicatedFooter: {
         id: 'openShiftDedicatedFooter',
-        description: 'Openshift Dedicated footer',
-        defaultMessage: 'Red Hat Openshift Dedicated'
+        description: 'OpenShift Dedicated footer',
+        defaultMessage: 'Red Hat OpenShift Dedicated'
     },
     cvePatching: {
         id: 'cvePatching',

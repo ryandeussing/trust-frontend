@@ -196,16 +196,16 @@
     "description": "Only one uploaded data - body"
   },
   "openShiftDedicated": {
-    "defaultMessage": "Openshift Dedicated",
-    "description": "Openshift Dedicated"
+    "defaultMessage": "OpenShift Dedicated",
+    "description": "OpenShift Dedicated"
   },
   "openShiftDedicatedBody": {
-    "defaultMessage": "Red Hat Insights operates on Red Hat’s own Openshift Dedicated infrastructure.",
-    "description": "Openshift Dedicated body"
+    "defaultMessage": "Red Hat Insights operates on Red Hat’s own OpenShift Dedicated infrastructure.",
+    "description": "OpenShift Dedicated body"
   },
   "openShiftDedicatedFooter": {
-    "defaultMessage": "Red Hat Openshift Dedicated",
-    "description": "Openshift Dedicated footer"
+    "defaultMessage": "Red Hat OpenShift Dedicated",
+    "description": "OpenShift Dedicated footer"
   },
   "openSourceClientCode": {
     "defaultMessage": "Open Source Client Code",
