@@ -22,7 +22,7 @@ InsightsRoute.propTypes = {
 };
 
 export const Routes = () => <Switch>
-    <InsightsRoute key='register' exact path={paths.register} rootClass='Insights'
-        component={() => <Suspense fallback={<Loading />}> <Trust /> </Suspense>} />
-    <Redirect path='*' to={paths.register} push />
+    <InsightsRoute key='trust' path={paths.trust} rootClass='Insights'
+        component={() => <Suspense fallback={<Loading />}><Trust /></Suspense>} />
+    <Redirect path='*' to={paths.trust} push />
 </Switch>;
