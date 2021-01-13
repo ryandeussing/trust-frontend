@@ -12,7 +12,7 @@ import {
     TitleSizes
 } from '@patternfly/react-core/dist/esm/components';
 import { Flex, FlexItem } from '@patternfly/react-core/dist/esm/layouts';
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense, lazy, useEffect } from 'react';
 
 import Loading from '../../Components/Loading/Loading';
 import { PageHeader } from '@redhat-cloud-services/frontend-components';
@@ -44,12 +44,17 @@ const TrustScroll = () => {
     }
     ];
 
+    useEffect(() => {
+        const hash = document.location.hash;
+        hash && setTimeout(() => document.querySelector(hash).scrollIntoView({ behavior: 'smooth', block: 'start' }), 300);
+    }, []);
+
     return <div className="ins-c-marketing-page">
         <PageHeader className='ins-c-page-header' isWidthLimited>
             <Flex justifyContent={{ default: 'justifyContentCenter' }}>
                 <TextContent
                     className='ins-c-width-limiter pf-u-text-align-center'
-                    style={ { '--ins-c-width-limiter--MaxWidth': '80ch' } }>
+                    style={{ '--ins-c-width-limiter--MaxWidth': '80ch' }}>
                     <Title headingLevel='h1' size={TitleSizes['3xl']}>
                         {intl.formatMessage(messages.redHatInsightsSecurity)}
                     </Title>
@@ -79,7 +84,7 @@ const TrustScroll = () => {
                     <Flex justifyContent={{ default: 'justifyContentCenter' }}>
                         <FlexItem
                             className='ins-c-width-limiter'
-                            style={ { '--ins-c-width-limiter--MaxWidth': '80ch' } }>
+                            style={{ '--ins-c-width-limiter--MaxWidth': '80ch' }}>
                             {item.component}
                         </FlexItem>
                     </Flex>
