@@ -17,3 +17,7 @@ $top-bottom-margin-lg: var(--pf-global--spacer--lg) 0;
         flex-direction: row;
     }
 }
+
+.ins-c-width-limiter{
+    --ins-c-width-limiter--MaxWidth: 80ch !important
+}

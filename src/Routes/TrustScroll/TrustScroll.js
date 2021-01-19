@@ -53,8 +53,7 @@ const TrustScroll = () => {
         <PageHeader className='ins-c-page-header' isWidthLimited>
             <Flex justifyContent={{ default: 'justifyContentCenter' }}>
                 <TextContent
-                    className='ins-c-width-limiter pf-u-text-align-center'
-                    style={{ '--ins-c-width-limiter--MaxWidth': '80ch' }}>
+                    className='ins-c-width-limiter pf-u-text-align-center'>
                     <Title headingLevel='h1' size={TitleSizes['3xl']}>
                         {intl.formatMessage(messages.redHatInsightsSecurity)}
                     </Title>
@@ -83,8 +82,7 @@ const TrustScroll = () => {
                     <div className="pf-c-page__anchor" id={`section-${item.section}`} tabIndex={-1}></div>
                     <Flex justifyContent={{ default: 'justifyContentCenter' }}>
                         <FlexItem
-                            className='ins-c-width-limiter'
-                            style={{ '--ins-c-width-limiter--MaxWidth': '80ch' }}>
+                            className='ins-c-width-limiter'>
                             {item.component}
                         </FlexItem>
                     </Flex>
