@@ -19,5 +19,6 @@ $top-bottom-margin-lg: var(--pf-global--spacer--lg) 0;
 }
 
 .ins-c-width-limiter{
-    --ins-c-width-limiter--MaxWidth: 80ch !important
+    --ins-c-width-limiter--MaxWidth: 80ch !important;
+    max-width: 80ch !important;
 }
