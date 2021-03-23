@@ -21,7 +21,7 @@ const FAQ = () => {
     }, []);
 
     return <React.Fragment>
-        {content.status === 'pending' || content.status === 'error' && <Loading />}
+        {(content.status === 'pending' || content.status === 'error') && <Loading />}
         {content.status === 'fulfilled' && <Card className='faq-card'>
             <CardBody>
                 <ReactMarkdown source={content.content} escapeHtml={false} />
